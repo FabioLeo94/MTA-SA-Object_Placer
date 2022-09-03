@@ -1,0 +1,8 @@
+<meta>
+	<info author="Ethan94FL" name="Piazza Oggetti" description="Crea scenari nuovi con questo script!" version="1.0" type="misc"/>
+	<min_mta_version client="1.5.5-9.14060"></min_mta_version>
+	<config type="client" src="help.xml"/>
+	<script src="place_object/place_object_c.lua" type="client" />
+	<script src="place_object/place_object_s.lua" type="server" />
+</meta>
+  

@@ -1,0 +1,46 @@
+<help popup="yes">
+LO SCRIPT COGLIONE! by Ethan94FL
+
+Attach Object Script:
+[F5] = Finescra per attaccarsi oggetti addosso
+
+[frecciaSU] = incrementa offset su asse Y
+[frecciaGIU] = decrementa offset su asse Y
+[frecciaDX] = incrementa offset su asse X
+[frecciaSX] = decrementa offset su asse X
+[numPad2] = decrementa offset su asse Z
+[numPad8] = incrementa offset su asse Z
+[lshift + {button}] = aumenta il valore dell'incremento dei bottoni sopra
+
+PLAYER
+/god - immortalità
+/elv - Enter Last Vehicle -> Entra nell'ultimo veicolo da cui sei uscito
+
+/hp [n] - restituisce TOT hp          |
+/armor [n] - restituisce TOT armor    |----> Se non settati applicheranno il valore massimo!
+/money [n] - guadagni TOT money       |
+
+ESPLOSIONI
+/explode [TipoEsplosione] [N° esplosioni (max 100)] -- Esplodi, ma scegli come e quante volte.
+/boom -- Semplicemente salti in aria come uno zaino abbandonato in stazione.
+
+Tipi esplosioni:
+0: Grenade
+1: Molotov
+2: Rocket
+3: Rocket Weak
+4: Car
+5: Car Quick
+6: Boat
+7: Heli -- Esplosione figa!
+8: Mine -- Esplosione figa 2!
+9: Object
+10: Tank Grenade
+11: Small
+12: Tiny
+
+VEICOLI
+/sv [ID o Nome completo] -- Spawna un veicolo e ti ci ficca alla guida.
+/train [LOCOMOTIVA] [VAGONE] [N° VAGONI] -- Spawna un treno con la locomotiva e il numero di vagoni specificati.
+
+</help>
